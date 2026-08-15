@@ -921,8 +921,8 @@ l-15 -38 83 0 84 0 17 42 c9 24 20 45 23 48 4 3 18 28 31 55 14 28 32 61 42
   <text x="0" y="253" class="key">Core.Cloud</text>
   <text x="180" y="253" class="value">: AWS • Docker • S3 • EC2</text>
 
-  <text x="0" y="280" class="key">Core.AI</text>
-  <text x="180" y="280" class="value">: Python • YOLO • OpenCV</text>
+  <text x="0" y="280" class="key">Core.Computer-Vision</text>
+<text x="180" y="280" class="value">: YOLO • OpenCV • Computer Vision</text>
 
   <text x="0" y="307" class="key">Core.Tools</text>
   <text x="180" y="307" class="value">: Git • GitHub • Maven • Postman</text>
