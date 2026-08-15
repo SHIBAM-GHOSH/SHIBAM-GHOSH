@@ -1,132 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="650" viewBox="0 0 1180 650">
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="530"
+     viewBox="0 0 1180 530"
+     font-family="ConsolasFallback,Consolas,monospace" font-size="15px">
 <style>
-.key { fill:#F4A261; font-family:Consolas,"Courier New",monospace; font-size:15px; font-weight:700; }
-.value { fill:#E6EDF3; font-family:Consolas,"Courier New",monospace; font-size:15px; }
-.muted { fill:#8B949E; font-family:Consolas,"Courier New",monospace; font-size:15px; }
-.green { fill:#7EE787; font-family:Consolas,"Courier New",monospace; font-size:15px; }
-.line { stroke:#30363D; stroke-width:1; }
+@font-face {
+src: local('Consolas'), local('Consolas Bold');
+font-family: 'ConsolasFallback';
+font-display: swap;
+}
+.key { fill:#F4A261; }
+.value { fill:#E5E7EB; }
+.cc { fill:#6B7280; }
+.green { fill:#39FF14; }
+text,tspan { white-space:pre; }
 </style>
+<rect width="1180px" height="530px" fill="#000000" rx="15"/>
 
-<rect width="1180" height="650" rx="16" fill="#0D1117"/>
-
-<!-- stippled portrait: one character only, light orange on black -->
-<g fill="#F4A261" font-family="DejaVu Sans Mono,Consolas,'Courier New',monospace"
-   font-size="7.25px" font-weight="700" xml:space="preserve">
-<tspan x="125.2" y="47.2">                           •••••••</tspan>
-<tspan x="125.2" y="54.6">                          • •••••••</tspan>
-<tspan x="125.2" y="62.0">                     •••••••••••••••••</tspan>
-<tspan x="125.2" y="69.4">                    ••••••••••••••••••• •</tspan>
-<tspan x="125.2" y="76.8">                    ••••••••••••••••••••••</tspan>
-<tspan x="125.2" y="84.2">                    •••••••••••••••••••••••</tspan>
-<tspan x="125.2" y="91.6">                  •••••••••••••••••••••••••</tspan>
-<tspan x="125.2" y="99.0">                 •••••••••••••••••••••••••••</tspan>
-<tspan x="125.2" y="106.4">                 ••••••••••••••••••••••••••••</tspan>
-<tspan x="125.2" y="113.8">                 •••••• ••• • •••••••••••••••</tspan>
-<tspan x="125.2" y="121.2">                 •••           •••••••••••••••</tspan>
-<tspan x="125.2" y="128.6">                  •               •••••••••••</tspan>
-<tspan x="125.2" y="136.0">                  •                 ••••••••••</tspan>
-<tspan x="125.2" y="143.3">                  •                 •••••••••</tspan>
-<tspan x="125.2" y="150.7">                 •                 • •••••••••</tspan>
-<tspan x="125.2" y="158.1">                  •         • • • • • •••••••</tspan>
-<tspan x="125.2" y="165.5">                   • •   ••••••••••• • ••••••</tspan>
-<tspan x="125.2" y="172.9">                  ••••••••••••• • ••• • •••••</tspan>
-<tspan x="125.2" y="180.3">                 ••••••••••••••••••• ••••••••</tspan>
-<tspan x="125.2" y="187.7">                • ••••••  •••••••••   ••• •••</tspan>
-<tspan x="125.2" y="195.1">                ••••••••   •••••     •••••   •</tspan>
-<tspan x="125.2" y="202.5">                  • •••       •     •   •   ••</tspan>
-<tspan x="125.2" y="209.9">                    ••                  •••  •</tspan>
-<tspan x="125.2" y="217.3">                  •         •     •    •• ••</tspan>
-<tspan x="125.2" y="224.7">                            ••        •• ••• •</tspan>
-<tspan x="125.2" y="232.1">                  •   •   • • •      ••••   •</tspan>
-<tspan x="125.2" y="239.5">                     • •••      •    • • • •</tspan>
-<tspan x="125.2" y="246.9">                        • •   •     •   • •</tspan>
-<tspan x="125.2" y="254.3">                   •   •••••••     •   • •</tspan>
-<tspan x="125.2" y="261.7">                    • • • • •••     • •••</tspan>
-<tspan x="125.2" y="269.1">                    • ••••   • •••••••••••</tspan>
-<tspan x="125.2" y="276.5">                    • • • ••• • •••••••••</tspan>
-<tspan x="125.2" y="283.9">                     •   ••• ••  ••••••••</tspan>
-<tspan x="125.2" y="291.2">                      • •••••   •••••••••</tspan>
-<tspan x="125.2" y="298.6">                      •  •••••••••••••••••</tspan>
-<tspan x="125.2" y="306.0">                        ••••••••••••••• •</tspan>
-<tspan x="125.2" y="313.4">                       •••••••••••••••   •</tspan>
-<tspan x="125.2" y="320.8">                          •••••••••••   ••</tspan>
-<tspan x="125.2" y="328.2">                          •••••••••••    •</tspan>
-<tspan x="125.2" y="335.6">                          ••• ••••••      •</tspan>
-<tspan x="125.2" y="343.0">                          ••••••••••       ••</tspan>
-<tspan x="125.2" y="350.4">                          ••••••••• •      ••••</tspan>
-<tspan x="125.2" y="357.8">                           •••••••••••    ••••••••</tspan>
-<tspan x="125.2" y="365.2">                          • • •••••••••   ••••••••• •</tspan>
-<tspan x="125.2" y="372.6">                           •••••••••••••••••••••••••••••</tspan>
-<tspan x="125.2" y="380.0">                          •••••••••••••••••••••••••     • • •</tspan>
-<tspan x="125.2" y="387.4">                            •••••••• •••••••••••  •</tspan>
-<tspan x="125.2" y="394.8">                          • ••••••• ••••••••••••• •</tspan>
-<tspan x="125.2" y="402.2">                         •   ••• • ••••••••• ••• •</tspan>
-<tspan x="125.2" y="409.6">                        •     • •••••••••••••••••••</tspan>
-<tspan x="125.2" y="417.0"> • ••••••••••••••••••• ••    ••••••••••••••••••••• •••       •</tspan>
-<tspan x="125.2" y="424.4">••••••••••••••••••••• ••••••••••••••••••••••••• ••••••••••• ••</tspan>
-<tspan x="125.2" y="431.8">••••••••••••••••••••  •••••••••••••••••••••  • •••••••••••••••</tspan>
-<tspan x="125.2" y="439.1">•••••••••••••••••••   ••••••••••••••••••••• ••• ••• ••• ••••••</tspan>
-<tspan x="125.2" y="446.5">•• ••••••••••••••   •••••••••••• •••••••••  •• •••••••••••••••</tspan>
-<tspan x="125.2" y="453.9">• ••••••••••••••    ••••••••••• ••••••••••••••••••••••••••••••</tspan>
-<tspan x="125.2" y="461.3">•••••••••••••••    •••••••••••••••••••••••••••••••••••••••••••</tspan>
-<tspan x="125.2" y="468.7">••••••••••••••    ••••••••••••• ••••••• •  •••••••••••••••••••</tspan>
-<tspan x="125.2" y="476.1">•••••••••••••  •••••••••••••••••••••       •••••••••••••••••••</tspan>
-<tspan x="125.2" y="483.5">•••••••••••   •••••••••••••••••••           ••••••••••••••••••</tspan>
-<tspan x="125.2" y="490.9">••••••••••• ••••••••••••••••••             •••••••••••••••••••</tspan>
-<tspan x="125.2" y="498.3">••••••••••• ••• ••••••••••••••• • •         ••••••••••••••••••</tspan>
-<tspan x="125.2" y="505.7">•••••••••• •••••••••••••••••••             •••••••••••••••••••</tspan>
-<tspan x="125.2" y="513.1">••••••••• ••• • •••••••••••••••       • ••••••••••••••••••••••</tspan>
-<tspan x="125.2" y="520.5">   ••••••••••••••••••••••••••••    • •••••••••••••••••••••••••</tspan>
-<tspan x="125.2" y="527.9">      ••• • ••• ••••••••••••••• ••• • • ••••••••••••••••••••••</tspan>
-<tspan x="125.2" y="535.3">       ••••••• ••••••••••••••••••• •   •••••••••••••••••••••••</tspan>
-<tspan x="125.2" y="542.7">       •• •••• ••••••••••••••••••••••   ••••••••••••••••••••••</tspan>
-<tspan x="125.2" y="550.1">       •• •••• ••••••••••••••••••••••     ••••••••••••••••••••</tspan>
+<!-- PERSONAL ASCII PORTRAIT -->
+<g transform="translate(18,18) scale(0.96,1.0)">
+<text x="0" y="0" fill="#F4A261" font-size="8.8px">
+<tspan x="-5" y="0.0">                  #@@@@@#+-.            .*@@@@@@%@@@@@@@@@@@@@@@@@@@@.</tspan>
+<tspan x="-5" y="8.4">                  +@@@@-                  :=+#%%+*%@@@@@@@@@@@@@@@@@@=</tspan>
+<tspan x="-5" y="16.8">                  =@@@+                     : .+%*@@@@@@@@@@@@@@@@@@@=</tspan>
+<tspan x="-5" y="25.2">                  :@@%.        .           ..  -*#%=#@@@@@@@@@@@@@@@@+</tspan>
+<tspan x="-5" y="33.6">                  .@@-         ..                .: :@@@@@@@@@@@@@@@@#</tspan>
+<tspan x="-5" y="42.0">                  -@#                              .-@@@@@@@@@@@@@@@@#</tspan>
+<tspan x="-5" y="50.4">                  =@:            :                  .%@@@@@@@@@@@@@@@%</tspan>
+<tspan x="-5" y="58.8">                  -@.                            .-- #@@@@@@@@@@@@@@@#</tspan>
+<tspan x="-5" y="67.2">                  -@                              :*.+@@@@@@@@@@@@@@@+</tspan>
+<tspan x="-5" y="75.6">                  :%                              :+: :%@@@@@@@@@@@@@-</tspan>
+<tspan x="-5" y="84.0">                  .%.              ...:+##%####%#- -:= =-%@@@@@@@@@@@:</tspan>
+<tspan x="-5" y="92.4">                   *.            .-%#@@@@@@@@@@@@@+ .:+*.#@@@@@@@@@@@.</tspan>
+<tspan x="-5" y="100.8">                   *--=+*##*- -+=*:#@@@@@@@%@@@@@@@*  ## -@@@@@@@@@@#</tspan>
+<tspan x="-5" y="109.2">                   #@@@@@@@@%#@@@@%%@@@@@%+**-=*%#%@-=#%. #@@@@@@@@@*</tspan>
+<tspan x="-5" y="117.6">                  .@@@@@@@@@@@@@#%@@@@@@%####***#%@@*=%:-:*@@@@@@@@@+</tspan>
+<tspan x="-5" y="126.0">                  -@@#%@@@@@@@@- =@@@@@%%%%%%%%+:@%#**+@%+#@@@@@@@@@+</tspan>
+<tspan x="-5" y="134.4">                  :@@##%%%##@%@##*@@@@@@@*%@@%*@@%*:.-.=#*==*%@@@@@@+                  .:</tspan>
+<tspan x="-5" y="142.8">                .=+%=-*#%%@@%%%-.:#%@@@@@++%@-:%@#@@=    -#%*==%@@@@=                  +*</tspan>
+<tspan x="-5" y="151.2">               *@= ==*%@@@*%@@+  .%+=@@@@@@@@%@@@%=+=  -#%%@@@###*++.                  ::</tspan>
+<tspan x="-5" y="159.6">               #@*-:@@=:@%+@@@:   -%+@@@@@@@@+=+:-.  .*@@@#@@@@-   :#-</tspan>
+<tspan x="-5" y="168.0">               .**%%@@@*@%@@@%     #@-#@@@@@%**- .. :%@@#=:%@@=   :=-@.</tspan>
+<tspan x="-5" y="176.4">                   -@@*-**@@@=     :%. :=+#*---    =@@+:   #@*  -%-@=%-</tspan>
+<tspan x="-5" y="184.8">                   .#+%*#@@@%.      +%    .=. ..  *@@=     %#   *@#+%%+</tspan>
+<tspan x="-5" y="193.2">                   .% :+#@@%=   .   .%:    ..++: +*=:     :@* *+*-  #@*</tspan>
+<tspan x="-5" y="201.6">                   .#   +#+    ..    *@- . .     = .      +@+ -@@*  =@*</tspan>
+<tspan x="-5" y="210.0">                   .*  ..   .        :@#         +:    .  %@- .@@@#..+*</tspan>
+<tspan x="-5" y="218.4">                   .* .-:             *@-   ::   #:    . :@@: :#%@@* +-</tspan>
+<tspan x="-5" y="226.8">                   .#      :     .:   *@%+   .  .#:    ++#@@.-%@%@@+:#</tspan>
+<tspan x="-5" y="235.2">                    #:    =# :  -@@#:.#%@@#    :...   =@@#@%:@@+.-+ #=</tspan>
+<tspan x="-5" y="243.6">                    #+   =+#:#* .+@@@@: :+%#-  +*    :@@-.@#=*     =%</tspan>
+<tspan x="-5" y="252.0">                    =%  =*.@=+@=-+@@%=    .+%--.. .   *%-:@*.#*%=+%@:</tspan>
+<tspan x="-5" y="260.4">                    .@- #+%* *@@@@#-.       .#@-:.  *==-.+-: .+#:*@-</tspan>
+<tspan x="-5" y="268.8">                     #+ =@#  -%@@@:  .-       #: .:=%*-+ .. =. #*=.</tspan>
+<tspan x="-5" y="277.2">                     -% :@. ...+*--*=.  .+=       -+** -::%-+#*:</tspan>
+<tspan x="-5" y="285.6">                      %:.* : :**#%@@@@*:.+++-    :+@+. .-*@=:@*</tspan>
+<tspan x="-5" y="294.0">                      *+.=-=.@@#**%@%*#@*=- :.   ..:.-+ =*@.-@=</tspan>
+<tspan x="-5" y="302.4">                      -%. =-.+:=  ..-+*@@@@*=:   ....#+.%%@+-@-</tspan>
+<tspan x="-5" y="310.8">                       %:  --:%@*+%#@@@%%@@@#:  .: #:.+#*%@*=@:</tspan>
+<tspan x="-5" y="319.2">                       *+  %@@%@@@@%+:.-##*@@# .+*+%*#%%*%@#*@.</tspan>
+<tspan x="-5" y="327.6">                       =# :@@% .::.  .#@*  .+%##@@#%@%@%%%@*#@.</tspan>
+<tspan x="-5" y="336.0">                       .@ :@##*..:--*@@=..  -#@@@@%@@@@@@@@#%%</tspan>
+<tspan x="-5" y="344.4">                        %= = .*##%%##@+:#**@@%@@@@%@@@@@@@@@@%</tspan>
+<tspan x="-5" y="352.8">                        +%   ::-=+**=- %##%+--@@@@@@@@@@@@@##%</tspan>
+<tspan x="-5" y="361.2">                        .@:. =-.+@@@@##@@#  .:+#%@@@@@@@@@@++%</tspan>
+<tspan x="-5" y="369.6">                         *%+ -@%@@@@@@@+:.  *+#@@@@@@@@@@@@=%#</tspan>
+<tspan x="-5" y="378.0">                         .@* .=*%@@@@@:  . :-@@@@@@@@@@@@@%+@*.</tspan>
+<tspan x="-5" y="386.4">                          -@+   :@@@@@#=+@*##@@@@@@@@@@@@@+:%#.</tspan>
+<tspan x="-5" y="394.8">                           =@: :=@@@@@@@@@@@@@@@@@@@@@@@@@. **.</tspan>
+<tspan x="-5" y="403.2">                            *%-%@@@@@@@@@@@@@@@@@@@@@@@@@= .#%.</tspan>
+<tspan x="-5" y="411.6">                             %%%@@@@@%@@@@@@@@@@@@@@@@@@#  ..#-</tspan>
+<tspan x="-5" y="420.0">                             :%@@@%@@@@@@@@@@@@@@@@@@@@%.-.  %=</tspan>
+<tspan x="-5" y="428.4">                              .#@@@@@@@@@@@@@@@@@@@@@@@+=-  .@*</tspan>
+<tspan x="-5" y="436.8">                                :*@@@@@@@@@@@@@@@@@@@@%:    :@@.</tspan>
+<tspan x="-5" y="445.2">                                  %@@@@@@@@@@@@@@@@@@%.     -@%=</tspan>
+<tspan x="-5" y="453.6">                                  *@@%-*@@@@@@@@@@@@@:     ..==%</tspan>
+<tspan x="-5" y="462.0">                                  +@@@* *@@@@@@@@@@@=   :.     @-</tspan>
+<tspan x="-5" y="470.4">                                  =@@@%=.%@@@@@@@@@*    :.     -#</tspan>
+</text>
 </g>
 
-<g transform="translate(500 44)">
-  <text x="0" y="0" class="muted">shibam@github:~$ cat profile.conf</text>
+<!-- PERSONAL TERMINAL PANEL -->
+<text x="500" y="30" fill="#E5E7EB">
+<tspan x="520" y="30" fill="#F4A261" font-size="17px">shibam@github:~$</tspan><tspan class="cc"> profile.conf</tspan>
 
-  <text x="0" y="36" class="key">Subject</text>
-  <text x="180" y="36" class="value">: Shibam Ghosh</text>
-  <text x="0" y="63" class="key">Role</text>
-  <text x="180" y="63" class="value">: Software Engineer | Backend</text>
-  <text x="0" y="90" class="key">Origin</text>
-  <text x="180" y="90" class="value">: Pune, India</text>
-  <text x="0" y="117" class="key">Status</text>
-  <text x="180" y="117" class="green">: Building • Learning • Shipping</text>
+<tspan x="520" y="52" class="cc">. </tspan><tspan class="key">Subject</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">Shibam Ghosh</tspan>
+<tspan x="520" y="72" class="cc">. </tspan><tspan class="key">Role</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">Software Engineer | Backend</tspan>
+<tspan x="520" y="92" class="cc">. </tspan><tspan class="key">Origin</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">Pune, India</tspan>
+<tspan x="520" y="112" class="cc">. </tspan><tspan class="key">Status</tspan>:<tspan class="cc"> ................. </tspan><tspan class="green">Building • Learning • Shipping</tspan>
 
-  <line x1="0" y1="140" x2="635" y2="140" class="line"/>
+<tspan x="520" y="132" class="cc">. </tspan>
+<tspan x="520" y="152" class="key">Core</tspan>.<tspan class="key">Language</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">C++ • Java • Python</tspan>
+<tspan x="520" y="172" class="key">Core</tspan>.<tspan class="key">Backend</tspan>:<tspan class="cc"> ...... </tspan><tspan class="value">Spring Boot • REST • Security</tspan>
+<tspan x="520" y="192" class="key">Core</tspan>.<tspan class="key">Data</tspan>:<tspan class="cc"> ......... </tspan><tspan class="value">MySQL • JPA • Redis</tspan>
+<tspan x="520" y="212" class="key">Core</tspan>.<tspan class="key">Cloud</tspan>:<tspan class="cc"> ........ </tspan><tspan class="value">AWS • Docker • S3 • EC2</tspan>
+<tspan x="520" y="232" class="key">Core</tspan>.<tspan class="key">CV</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">YOLO • OpenCV • Computer Vision</tspan>
+<tspan x="520" y="252" class="key">Core</tspan>.<tspan class="key">Tools</tspan>:<tspan class="cc"> .......... </tspan><tspan class="value">Git • GitHub • Maven • Postman</tspan>
 
-  <text x="0" y="172" class="key">Core.Language</text>
-  <text x="180" y="172" class="value">: C++ • Java • Python</text>
-  <text x="0" y="199" class="key">Core.Backend</text>
-  <text x="180" y="199" class="value">: Spring Boot • REST • Security</text>
-  <text x="0" y="226" class="key">Core.Data</text>
-  <text x="180" y="226" class="value">: MySQL • JPA/Hibernate • Redis</text>
-  <text x="0" y="253" class="key">Core.Cloud</text>
-  <text x="180" y="253" class="value">: AWS • Docker • S3 • EC2</text>
-  <text x="0" y="280" class="key">Core.Computer-Vision</text>
-  <text x="180" y="280" class="value">: YOLO • OpenCV • Computer Vision</text>
-  <text x="0" y="307" class="key">Core.Tools</text>
-  <text x="180" y="307" class="value">: Git • GitHub • Maven • Postman</text>
+<tspan x="520" y="282" fill="#F4A261">- Projects</tspan> -——————————————————————————————————————————
+<tspan x="520" y="302" class="cc">. </tspan><tspan class="key">Build</tspan>.<tspan class="key">01</tspan>:<tspan class="cc"> .......... </tspan><tspan class="value">UrbanFix</tspan>
+<tspan x="520" y="322" class="cc">. </tspan><tspan class="key">Build</tspan>.<tspan class="key">02</tspan>:<tspan class="cc"> .......... </tspan><tspan class="value">AI Code Knowledge Graph</tspan>
+<tspan x="520" y="342" class="cc">. </tspan><tspan class="key">Build</tspan>.<tspan class="key">03</tspan>:<tspan class="cc"> .......... </tspan><tspan class="value">YOLO Vehicle Detection</tspan>
 
-  <line x1="0" y1="330" x2="635" y2="330" class="line"/>
+<tspan x="520" y="372" fill="#F4A261">- Research / Contribution</tspan> -——————————————————————————
+<tspan x="520" y="392" class="cc">. </tspan><tspan class="key">Vision</tspan>:<tspan class="cc"> .............. </tspan><tspan class="value">YOLO Object Detection</tspan>
+<tspan x="520" y="412" class="cc">. </tspan><tspan class="key">Project</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">Remote-Controlled Hexapod</tspan>
+<tspan x="520" y="432" class="cc">. </tspan><tspan class="key">Publication</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">IEEE Published</tspan>
 
-  <text x="0" y="362" class="key">Projects</text>
-  <text x="180" y="362" class="value">: UrbanFix</text>
-  <text x="180" y="387" class="value">  AI Code Knowledge Graph</text>
-  <text x="180" y="412" class="value">  YOLO Vehicle Detection</text>
-
-  <text x="0" y="445" class="key">Research</text>
-  <text x="180" y="445" class="value">: YOLO Object Detection • Hexapod Research</text>
-
-  <line x1="0" y1="468" x2="635" y2="468" class="line"/>
-
-  <text x="0" y="500" class="key">Focus</text>
-  <text x="180" y="500" class="value">: Backend • DSA • System Design</text>
-  <text x="0" y="538" class="muted">$ whoami</text>
-  <text x="0" y="563" class="value">Computer Engineering @ AIT Pune</text>
-  <text x="0" y="588" class="value">Building scalable backend and AI-powered software.</text>
-</g>
+<tspan x="520" y="462" fill="#F4A261">- Focus</tspan> -————————————————————————————————————————————
+<tspan x="520" y="482" class="cc">. </tspan><tspan class="key">Now</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">Backend • DSA • System Design</tspan>
+<tspan x="520" y="502" class="cc">$ whoami</tspan><tspan class="value">  Computer Engineering @ AIT Pune</tspan>
+</text>
 </svg>
