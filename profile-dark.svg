@@ -244,8 +244,6 @@
   <text x="520" y="416" class="value"><tspan class="muted">. </tspan><tspan class="key">Project</tspan><tspan class="muted"> ............. </tspan><tspan>Remote-Controlled Hexapod</tspan></text>
   <text x="520" y="436" class="value"><tspan class="muted">. </tspan><tspan class="key">Publication</tspan><tspan class="muted"> ....... </tspan><tspan>IEEE Published</tspan></text>
 
-  <!-- <text x="520" y="466" class="key">- Focus ---------------------------------------------</text>
-  <text x="520" y="486" class="value"><tspan class="muted">. </tspan><tspan class="key">Now</tspan><tspan class="muted"> ................. </tspan><tspan>Backend • DSA • System Design</tspan></text>
-  <text x="520" y="506" class="value"><tspan class="muted">$ whoami</tspan><tspan>  Computer Engineering @ AIT Pune</tspan></text> -->
+  
 </g>
 </svg>
